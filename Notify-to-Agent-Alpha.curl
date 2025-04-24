@@ -1,0 +1,9 @@
+POST /api/bot/message/971585829040 HTTP/1.1
+Host: dev-bank.looc.ai
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.....IzuwhFCHxoOpWFS9dRWAQk9rU6zW5hrnSZwzCKvl280
+Content-Length: 34
+
+{
+    "msg":"all good proceed"
+}
