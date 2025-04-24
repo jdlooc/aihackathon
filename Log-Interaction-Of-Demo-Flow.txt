@@ -1,0 +1,219 @@
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPpxzXn6v9JEX26Voj6l3CbH5Vzy9","_object":null,"created":1745497659,"model":"gpt-4o-mini-2024-07-18","choices":[{"index":0,"message":{"role":"assistant","content":"Hi JD! Great news! You've been pre-qualified for our Cashback Credit Card Offer, which comes with exclusive benefits. Would you like to proceed with the application process? Let me know, and I can assist you further!","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":81,"completion_tokens":45,"total_tokens":126}}
+A: Hi JD! Great news! You've been pre-qualified for our Cashback Credit Card Offer, which comes with exclusive benefits. Would you like to proceed with the application process? Let me know, and I can assist you further!
+REQUEST
+https://graph.facebook.com/v21.0/117697638093045/messages
+RESPONSE
+{"messaging_product":"whatsapp","contacts":[{"input":"971585829040","profile":null,"wa_id":"971585829040"}],"messages":[{"from":null,"id":"wamid.HBgMOTcxNTg1ODI5MDQwFQIAERgSNDFDNzc2OTJCMDM5NjBBQTk0AA==","timestamp":null,"text":null,"type":null,"location":null,"button":null,"interactive":null,"image":null,"audio":null}]}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPpytQzGVye5GakuOC0Gu0EK7aI1y","_object":null,"created":1745497715,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{  \n  \"reply\": \"Here are the cashback conditions for this campaign:\\n\\n- 3% cashback on all grocery and fuel purchases for 6 months from card approval.\\n- Cashback is capped at $50 per billing cycle.\\n- Grocery: Purchases must be at recognized supermarkets or grocery stores.\\n- Fuel: Purchases must be at gas stations under merchant codes MCC 5541 and MCC 5542.\\n- Cashback does NOT apply to utility bills, insurance, wallet top-ups, or installment plans.\\n\\nWould you like to continue with your application? If yes, please choose your preferred credit card type (Visa Black, Visa Gold, or Royal Jordanian Visa Platinum).\",  \n  \"language\": \"en\",  \n  \"intent\": \"looc_390\",  \n  \"info\": {  \n    \"form\": {  \n      \"inputs\": [  \n        { \"id\": 2232, \"answer\": null },  \n        { \"id\": 2233, \"answer\": null },  \n        { \"id\": 2235, \"answer\": null }  \n      ],  \n      \"askingFor\": 2232  \n    }  \n  },  \n  \"answerFound\": true,  \n  \"choices\": [\"Visa Black\", \"Visa Gold\", \"Royal Jordanian\"]  \n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":2788,"completion_tokens":273,"total_tokens":3061}}
+--------------looc_390-----------------
+{  
+  "reply": "Here are the cashback conditions for this campaign:\n\n- 3% cashback on all grocery and fuel purchases for 6 months from card approval.\n- Cashback is capped at $50 per billing cycle.\n- Grocery: Purchases must be at recognized supermarkets or grocery stores.\n- Fuel: Purchases must be at gas stations under merchant codes MCC 5541 and MCC 5542.\n- Cashback does NOT apply to utility bills, insurance, wallet top-ups, or installment plans.\n\nWould you like to continue with your application? If yes, please choose your preferred credit card type (Visa Black, Visa Gold, or Royal Jordanian Visa Platinum).",  
+  "language": "en",  
+  "intent": "looc_390",  
+  "info": {  
+    "form": {  
+      "inputs": [  
+        { "id": 2232, "answer": null },  
+        { "id": 2233, "answer": null },  
+        { "id": 2235, "answer": null }  
+      ],  
+      "askingFor": 2232  
+    }  
+  },  
+  "answerFound": true,  
+  "choices": ["Visa Black", "Visa Gold", "Royal Jordanian"]  
+}
+Changed False
+*** Credit card type: 
+*** Your monthly salary: 
+*** National ID: 
+
+H: 🙂
+A: Here are the cashback conditions for this campaign:
+
+- 3% cashback on all grocery and fuel purchases for 6 months from card approval.
+- Cashback is capped at $50 per billing cycle.
+- Grocery: Purchases must be at recognized supermarkets or grocery stores.
+- Fuel: Purchases must be at gas stations under merchant codes MCC 5541 and MCC 5542.
+- Cashback does NOT apply to utility bills, insurance, wallet top-ups, or installment plans.
+
+Would you like to continue with your application? If yes, please choose your preferred credit card type (Visa Black, Visa Gold, or Royal Jordanian Visa Platinum).
+(Visa Black) Visa Black
+(Visa Gold) Visa Gold
+(Royal Jordanian) Royal Jordanian
+REQUEST
+https://graph.facebook.com/v21.0/117697638093045/messages
+RESPONSE
+{"messaging_product":"whatsapp","contacts":[{"input":"971585829040","profile":null,"wa_id":"971585829040"}],"messages":[{"from":null,"id":"wamid.HBgMOTcxNTg1ODI5MDQwFQIAERgSMDk0MDdGOTc3OTk2RkJBRjcwAA==","timestamp":null,"text":null,"type":null,"location":null,"button":null,"interactive":null,"image":null,"audio":null}]}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPpzcUe7iGBOZnlrW0wJEateUaiyd","_object":null,"created":1745497760,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{  \n  \"reply\": \"Excellent choice, Adam! To proceed, could you please tell me your monthly salary? (Minimum required is $2,500/month for eligibility.)\",\n  \"language\": \"en\",\n  \"intent\": \"looc_390\",\n  \"info\": {\n    \"form\": {\n      \"inputs\": [\n        {\"id\":2232,\"answer\":\"Visa Black\"}\n      ],\n      \"askingFor\": 2233\n    }\n  },\n  \"answerFound\": true,\n  \"choices\": []\n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":2932,"completion_tokens":110,"total_tokens":3042}}
+--------------looc_390-----------------
+{  
+  "reply": "Excellent choice, Adam! To proceed, could you please tell me your monthly salary? (Minimum required is $2,500/month for eligibility.)",
+  "language": "en",
+  "intent": "looc_390",
+  "info": {
+    "form": {
+      "inputs": [
+        {"id":2232,"answer":"Visa Black"}
+      ],
+      "askingFor": 2233
+    }
+  },
+  "answerFound": true,
+  "choices": []
+}
+Changed False
+*** Credit card type: Visa Black
+*** Your monthly salary: 
+*** National ID: 
+
+H: ☝
+A: Excellent choice, Adam! To proceed, could you please tell me your monthly salary? (Minimum required is $2,500/month for eligibility.)
+REQUEST
+https://graph.facebook.com/v21.0/117697638093045/messages
+RESPONSE
+{"messaging_product":"whatsapp","contacts":[{"input":"971585829040","profile":null,"wa_id":"971585829040"}],"messages":[{"from":null,"id":"wamid.HBgMOTcxNTg1ODI5MDQwFQIAERgSNjE2QkMxQ0RCNzhDRjBEOUY5AA==","timestamp":null,"text":null,"type":null,"location":null,"button":null,"interactive":null,"image":null,"audio":null}]}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPq0NMYLrqKoFrQG8fswGxzwwnuvG","_object":null,"created":1745497807,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{  \n  \"reply\": \"No problem, Adam! I’ll connect you with a bank representative to discuss your request for a credit line extension. Please hold on while I arrange this for you.\",\n  \"language\": \"en\",\n  \"intent\": \"looc_389\",\n  \"info\": {\n    \"contextSummaryForHandover\": \"Adam Reed wants to apply for a Visa Black credit card under the cashback campaign but needs to discuss a credit line extension with a bank representative.\"\n  },\n  \"answerFound\": true,\n  \"choices\": []\n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":2989,"completion_tokens":116,"total_tokens":3105}}
+--------------looc_389-----------------
+{  
+  "reply": "No problem, Adam! I’ll connect you with a bank representative to discuss your request for a credit line extension. Please hold on while I arrange this for you.",
+  "language": "en",
+  "intent": "looc_389",
+  "info": {
+    "contextSummaryForHandover": "Adam Reed wants to apply for a Visa Black credit card under the cashback campaign but needs to discuss a credit line extension with a bank representative."
+  },
+  "answerFound": true,
+  "choices": []
+}
+Changed True
+REQUEST
+https://dev-bank.looc.ai/api/fetch/389?chatUser=971585829040&tag=Wait, I need to contact a bank representative because I want an extension on the credit line
+RESPONSE
+{"status":0,"data":{"prompt":"Assist the user in contacting a bank representantive","link":null,"autoSubmit":false,"compId":103,"type":"data","ctaSubmit":"Submit request","attachments":null,"questions":[{"ID":2239,"name":"Reason for contact","desc":"Automatically complete based on info.contextSummaryForHandover","type":"text","placeholder":null,"options":"","correctAnswer":null,"inactive":false,"hidden":false,"points":0,"fetchId":389,"pointsNeg":0,"value":null,"optional":false,"apiEndpoint":null,"apiResponseAttribute":null,"apiResponseValue":null,"conditionalTo":null,"conditionalOperator":null,"conditionalValue":null,"regex":null,"affects":null}],"id":389,"dateStart":"0001-01-01T00:00:00","dateEnd":"0001-01-01T00:00:00","name":"Contact bank representantive","img":null,"desc":null,"body":null,"color":null},"msg":null}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPq0WbplrLuZEHQ7KZ8CQg2pEesQp","_object":null,"created":1745497816,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"reply\": \"Hi Adam! To help you contact a bank representative, could you please confirm if your main reason is to discuss a credit line extension for your Visa Black credit card application under the cashback campaign? If you’d like to add or change anything, let me know!\",\n  \"language\": \"en\",\n  \"intent\": \"looc_389\",\n  \"info\": {\n    \"form\": {\n      \"inputs\": [\n        {\n          \"id\": 2239,\n          \"answer\": \"Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.\"\n        }\n      ],\n      \"askingFor\": null,\n      \"answeringTo\": 2239\n    }\n  },\n  \"answerFound\": false,\n  \"choices\": []\n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":1280,"completion_tokens":162,"total_tokens":1442}}
+--------------looc_389-----------------
+{
+  "reply": "Hi Adam! To help you contact a bank representative, could you please confirm if your main reason is to discuss a credit line extension for your Visa Black credit card application under the cashback campaign? If you’d like to add or change anything, let me know!",
+  "language": "en",
+  "intent": "looc_389",
+  "info": {
+    "form": {
+      "inputs": [
+        {
+          "id": 2239,
+          "answer": "Discussing a credit line extension for a Visa Black credit card application under the cashback campaign."
+        }
+      ],
+      "askingFor": null,
+      "answeringTo": 2239
+    }
+  },
+  "answerFound": false,
+  "choices": []
+}
+*** Reason for contact: Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.
+
+H: 🙂
+A: Hi Adam! To help you contact a bank representative, could you please confirm if your main reason is to discuss a credit line extension for your Visa Black credit card application under the cashback campaign? If you’d like to add or change anything, let me know!
+REQUEST
+https://graph.facebook.com/v21.0/117697638093045/messages
+RESPONSE
+{"messaging_product":"whatsapp","contacts":[{"input":"971585829040","profile":null,"wa_id":"971585829040"}],"messages":[{"from":null,"id":"wamid.HBgMOTcxNTg1ODI5MDQwFQIAERgSODc5QUVBOEM5Q0ZGMDM1NjUyAA==","timestamp":null,"text":null,"type":null,"location":null,"button":null,"interactive":null,"image":null,"audio":null}]}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPq10rgpfaJpZ9m0cHBvzMWCmer10","_object":null,"created":1745497846,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"reply\": \"Thank you for confirming, Adam. I have all the information needed and will now submit your request to connect you with a bank representative regarding your Visa Black credit card and credit line extension. If you have any other requests or questions, just let me know!\",\n  \"language\": \"en\",\n  \"intent\": \"looc_389\",\n  \"info\": {\n    \"form\": {\n      \"inputs\": [\n        {\n          \"id\": 2239,\n          \"answer\": \"Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.\"\n        }\n      ],\n      \"userConfirmsSubmission\": true,\n      \"readyToSubmit\": true,\n      \"answeringTo\": \"2239\",\n      \"askingFor\": null,\n      \"done\": false\n    }\n  },\n  \"answerFound\": true,\n  \"choices\": []\n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":1329,"completion_tokens":184,"total_tokens":1513}}
+--------------looc_389-----------------
+{
+  "reply": "Thank you for confirming, Adam. I have all the information needed and will now submit your request to connect you with a bank representative regarding your Visa Black credit card and credit line extension. If you have any other requests or questions, just let me know!",
+  "language": "en",
+  "intent": "looc_389",
+  "info": {
+    "form": {
+      "inputs": [
+        {
+          "id": 2239,
+          "answer": "Discussing a credit line extension for a Visa Black credit card application under the cashback campaign."
+        }
+      ],
+      "userConfirmsSubmission": true,
+      "readyToSubmit": true,
+      "answeringTo": "2239",
+      "askingFor": null,
+      "done": false
+    }
+  },
+  "answerFound": true,
+  "choices": []
+}
+Changed False
+*** Reason for contact: Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.
+
+H: 📝 Contact bank representantive
+A: *Reason for contact*
+Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.
+
+*Authorized by:*
+Adam Reed
+
+Confirm?
+(LOOC_389__389__0__0__CONFIRM) SUBMIT REQUEST
+(LOOC_389__389__0__0__EDIT) NO/EDIT
+REQUEST
+https://graph.facebook.com/v21.0/117697638093045/messages
+RESPONSE
+{"messaging_product":"whatsapp","contacts":[{"input":"971585829040","profile":null,"wa_id":"971585829040"}],"messages":[{"from":null,"id":"wamid.HBgMOTcxNTg1ODI5MDQwFQIAERgSRjkxQzk3NEY3RTlEMDczQTE1AA==","timestamp":null,"text":null,"type":null,"location":null,"button":null,"interactive":null,"image":null,"audio":null}]}
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPq1Sxueou8N8BZzqQFwOlfnFjHhs","_object":null,"created":1745497874,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"reply\": \"Thank you, Adam! Your request to contact a bank representative regarding a credit line extension for your Visa Black credit card application under the cashback campaign has been submitted. A representative will reach out to you soon. If you need anything else, just let me know!\",\n  \"language\": \"en\",\n  \"intent\": \"looc_389\",\n  \"info\": {\n    \"form\": {\n      \"formId\": 389,\n      \"inputs\": [\n        {\n          \"id\": 2239,\n          \"answer\": \"Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.\"\n        }\n      ],\n      \"userConfirmsSubmission\": true,\n      \"readyToSubmit\": true,\n      \"done\": true\n    }\n  },\n  \"answerFound\": true,\n  \"choices\": []\n}","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":1372,"completion_tokens":176,"total_tokens":1548}}
+--------------looc_389-----------------
+{
+  "reply": "Thank you, Adam! Your request to contact a bank representative regarding a credit line extension for your Visa Black credit card application under the cashback campaign has been submitted. A representative will reach out to you soon. If you need anything else, just let me know!",
+  "language": "en",
+  "intent": "looc_389",
+  "info": {
+    "form": {
+      "formId": 389,
+      "inputs": [
+        {
+          "id": 2239,
+          "answer": "Discussing a credit line extension for a Visa Black credit card application under the cashback campaign."
+        }
+      ],
+      "userConfirmsSubmission": true,
+      "readyToSubmit": true,
+      "done": true
+    }
+  },
+  "answerFound": true,
+  "choices": []
+}
+Changed False
+*** Reason for contact: Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.
+
+REQUEST
+https://dev-bank.looc.ai/api/fetch/389/turnin
+REQUEST
+https://api.openai.com/v1/chat/completions
+RESPONSE
+{"id":"chatcmpl-BPq2GIi70aK3q4PIk8sVi0krS3DPI","_object":null,"created":1745497924,"model":"gpt-4.1-2025-04-14","choices":[{"index":0,"message":{"role":"assistant","content":"{ \"reply\":\"Thank you, Adam. Your request to contact a bank representative regarding a credit line extension for your Visa Black credit card application under the cashback campaign has been submitted. A representative will reach out to you soon. If you need anything else, just let me know!\",\"language\":\"en\",\"intent\":\"looc_389\",\"info\":{\"form\":{\"inputs\":[{\"id\":2239,\"answer\":\"Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.\"}],\"userConfirmsSubmission\":true,\"readyToSubmit\":true,\"done\":true}},\"answerFound\":true,\"choices\":[] }","function_call":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":1371,"completion_tokens":129,"total_tokens":1500}}
+--------------looc_389-----------------
+{ "reply":"Thank you, Adam. Your request to contact a bank representative regarding a credit line extension for your Visa Black credit card application under the cashback campaign has been submitted. A representative will reach out to you soon. If you need anything else, just let me know!","language":"en","intent":"looc_389","info":{"form":{"inputs":[{"id":2239,"answer":"Discussing a credit line extension for a Visa Black credit card application under the cashback campaign."}],"userConfirmsSubmission":true,"readyToSubmit":true,"done":true}},"answerFound":true,"choices":[] }
+Changed False
+*** Reason for contact: Discussing a credit line extension for a Visa Black credit card application under the cashback campaign.
