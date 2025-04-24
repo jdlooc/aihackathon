@@ -1,0 +1,25 @@
+POST /api/function/mutateTables HTTP/1.1
+Host: api.glideapp.io
+Content-Type: application/json
+Authorization: Bearer xxx
+Content-Length: 518
+
+{
+  "appID": "fZlBOeWXJnsylWARrTgC",
+  "mutations": [
+    {
+      "kind": "add-row-to-table",
+      "tableName": "native-table-yoV4dHC6dAfuzDBQXsiw",
+      "columnValues": {
+        "Name": "{userName}",
+        "8WbdT": "{userMail}",
+        "qblEX": "{date}",
+        "hdC3Q": "{2233}",
+        "kqeYW": "{date}",
+        "WYzCm": "{2232}",
+        "vMVfF": "{2239}",
+        "fffE7": "OPEN"
+      }
+    }
+  ]
+}
